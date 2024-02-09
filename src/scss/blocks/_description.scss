@@ -2,13 +2,12 @@
 
 	&__part {
 		margin-top: 30px;
-		border: 1px solid red;
 		font-family: var(--font-main);
 		font-size: 18px;
 		color: #2F2F2F;
 
 		&:first-child {
-			margin-top: 0;
+			margin-top: 78px;
 		}
 	}
 }
@@ -19,6 +18,10 @@
 		&__part {
 			margin-top: 20px;
 			font-size: 16px;
+			
+			&:first-child {
+				margin-top: 20px;
+			}
 		}
 	}
 }
