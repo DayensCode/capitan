@@ -1,0 +1,24 @@
+.description {
+
+	&__part {
+		margin-top: 30px;
+		border: 1px solid red;
+		font-family: var(--font-main);
+		font-size: 18px;
+		color: #2F2F2F;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.description {
+
+		&__part {
+			margin-top: 20px;
+			font-size: 16px;
+		}
+	}
+}
